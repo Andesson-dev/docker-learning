@@ -1,0 +1,6 @@
+services:
+  black:
+    image: black
+    ports:
+      - 8000:8000
+  

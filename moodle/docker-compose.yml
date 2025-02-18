@@ -1,0 +1,37 @@
+services:
+  mariadb:
+    image: bitnami/mariadb:latest
+    
+    environment:
+      ALLOW_EMPTY_PASSWORD: yes
+      MARIADB_USER: bn_moodle
+      MARIADB_PASSWORD: bitani
+      MARIADB_DATABASE: bitani_moodle
+    volumes:
+     - mariadb:/bitnami/mariadb
+
+  moodle:
+    image: bitnami/moodle:latest
+    depends_on:
+      - mariadb
+    environment: 
+      MOODLE_DATABASE_USER: bn_moodle
+      MOODLE_DATABASE_PASSWORD: bitani
+      MOODLE_DATABASE_HOST: mariadb
+      MOODLE_DATABASE_NAME: bitani_moodle
+    volumes:
+      - moodle_data:/bitnami/moodle
+      - moodledata_data:/bitnami/moodledata 
+    ports:
+      - 8090:8080
+      - 8443:8443
+    
+volumes:
+  mariadb:
+  moodle_data:
+  moodledata_data:
+
+  
+
+ 
+  

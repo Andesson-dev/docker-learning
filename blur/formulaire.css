@@ -1,0 +1,100 @@
+*{
+    
+    padding: 0;
+    margin: 0;
+    background-color: #7815B9;
+    
+}
+header{
+    
+    align-items: center;
+}
+.container{
+    text-align: center;
+}
+
+ul{
+    display: flex;
+    padding: 10px 20px;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    
+}
+.heading{
+    
+    color:white;
+    
+}
+
+main{
+    
+    text-align: center;
+    margin: 60px 30px;
+    
+    
+}
+.form-contairner{
+    
+    margin: 20px 20px;
+}
+
+
+#name{
+   background-color: #99939D;
+   padding: 20px;
+   color: white;
+   width: 600px;
+   height: 10px;
+   font-size: 18px;
+   border: 1px dotted  #99939D;
+   margin: 20px;
+
+}
+#Email{
+    background-color: #99939D;
+    padding: 20px;
+    color: white;
+    width: 600px;
+    height: 10px;
+    font-size: 18px;
+    border: 1px dotted  #99939D;
+    margin: 20px;
+ 
+
+}
+#Message{
+    
+    background-color: #99939D;
+    padding: 20px;
+    color: white;
+    width: 600px;
+    height: 70px;
+    font-size: 18px;
+    border: 1px dotted  #99939D;
+    margin: 20px;
+ 
+}
+.style-button{
+    background-color: greenyellow;
+    padding: 25px;
+    color: white;
+    width: 650px;
+    height: 20px;
+    font-size: 18px;
+    border: 1px bold  greenyellow;
+
+}
+.style-button:hover{
+    background-color:  #7815B9;
+    color: blue;
+
+}
+
+
+footer{
+    background-color: white;
+    
+}

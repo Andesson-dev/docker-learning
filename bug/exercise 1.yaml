@@ -1,0 +1,21 @@
+exercise 1
+deployer dans docker une application python
+cree et demare un container basse sur cette image
+
+step:
+    CRee le docker file
+    build l'image
+    docker run
+
+
+ex2
+deployer en utilisant docker compose le site web qr
+-ecrire le docker file
+
+-ecrire le docker compose file
+
+step:
+
+    cree un doker compose file
+    build l'image
+    

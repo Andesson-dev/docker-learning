@@ -1,0 +1,6 @@
+services:
+  dull:
+   image: dull
+   ports:
+     - 9000:9000 
+  
